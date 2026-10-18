@@ -1,0 +1,38 @@
+name: Java 17 verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Show runtime
+        run: java -version
+      - name: Compile and test on Linux
+        if: runner.os == 'Linux'
+        run: sh build.sh test
+      - name: Compile and test on Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./build.ps1 test
+      - name: Run the facade demonstration
+        run: java -cp build/classes theater.Main
