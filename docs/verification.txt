@@ -48,4 +48,6 @@ The portable runtime is outside the submitted source package.
 
 GitHub Actions:
 Configured Java 17 compilation, tests and demo for Windows and Linux.
-Not executed yet: public project upload is awaiting explicit approval.
+Result: PASS on both Windows and Linux, 16 tests and demo in each job.
+Verified workflow: https://github.com/maxiszero/assignment-4-facade-pattern/actions/runs/39141879643
+Verified source commit: 99bb3ddd75f69c61a51ac782eab884a6e7101e49

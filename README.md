@@ -117,6 +117,8 @@ invalid input, repeat calls, original brightness restoration, startup failure,
 continued cleanup after a failure, retry, and retained error causes.
 
 Captured results and the Java 17 workflow link are in `docs/verification.txt`.
+All 16 tests and the demo passed on Java 17 in both Windows and Linux in the
+[verified workflow run](https://github.com/maxiszero/assignment-4-facade-pattern/actions/runs/39141879643).
 
 ## References
 
