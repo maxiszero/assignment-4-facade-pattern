@@ -1,0 +1,51 @@
+Assignment 4 Facade Pattern - verification record
+Student: Olzhabekov Ali, SE-2515
+
+Compilation: PASS
+Toolchain: Oracle javac 25.0.1
+Flags: --release 17 -encoding UTF-8 -Xlint:all -Werror
+Class-file major version: 61 (Java 17), confirmed with javap
+
+Behavioral tests: PASS, 16 of 16
+Execution on Oracle Java 25.0.1: PASS
+Execution on Eclipse Temurin Java 17.0.20.1+1: PASS
+Main demonstration on both runtimes: PASS
+
+Verified behaviors:
+- Brightness validation and preservation of the last valid value
+- Player title validation, normalization, loading, playback and eject rules
+- Projector dependency on playback and a lowered screen
+- Amplifier dependency on playback and valid volume
+- Direct operation of all five subsystems without a facade
+- Full start and shutdown through the facade
+- Original brightness restoration
+- Safe idle shutdown
+- Invalid facade requests without state changes
+- Rejected duplicate start
+- Multiple complete sessions
+- Startup rollback and original error cause
+- Continued cleanup after failure and successful retry
+- Preserved cleanup failure information
+- Null dependency validation
+
+CLI checks:
+- Movie title containing spaces: PASS
+- Excess command-line arguments: exit 2, PASS
+- Blank movie title: exit 2, PASS
+
+Architecture checks:
+- Main contains no subsystem construction, imports or direct calls
+- Subsystem sources contain no HomeTheaterFacade reference or import
+- Public facade methods take/return only String or void
+- Package-private collaborator injection does not expose a public device API
+
+Java 17 runtime download:
+Source: Eclipse Adoptium API, Windows x64 JRE 17
+Archive: OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip
+SHA-256: bc21a93923103cdaac93ee337b0ae4365e739fde36df823dd456bc67c8a9d352
+Checksum comparison: PASS
+The portable runtime is outside the submitted source package.
+
+GitHub Actions:
+Configured Java 17 compilation, tests and demo for Windows and Linux.
+Not executed yet: public project upload is awaiting explicit approval.

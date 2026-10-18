@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="499" height="395" preserveAspectRatio="xMinYMin meet" viewBox="0 0 499 395" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="499" height="395"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-395)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="170" y="329" width="160" height="60" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="232.8759765625" y="377" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,754) scale(1,-1)">&lt;&lt;Client&gt;&gt;</text>
+			<text x="239.1802978515625" y="363" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,726) scale(1,-1)">Main</text>
+			<path d="M 170,356 L 330,356 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="176" y="342" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">+ main(String[]): void</text>
+			<rect x="124" y="199" width="251" height="111" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="229.650146484375" y="298" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,596) scale(1,-1)">&lt;&lt;Facade&gt;&gt;</text>
+			<text x="202.774658203125" y="284" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,568) scale(1,-1)">HomeTheaterFacade</text>
+			<path d="M 124,277 L 375,277 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="130" y="263" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,526) scale(1,-1)">- five subsystem references</text>
+			<text x="130" y="251" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,502) scale(1,-1)">- state: State</text>
+			<text x="130" y="239" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,478) scale(1,-1)">+ watchMovie(title: String): void</text>
+			<text x="130" y="227" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,454) scale(1,-1)">+ endMovie(): void</text>
+			<text x="130" y="215" style="font-family: Body; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,430) scale(1,-1)">+ status(): String</text>
+			<path d="M 250,329 L 250,310 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; stroke-dasharray: 3, 3;"/>
+			<path d="M 250,310 L 247.5,316 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 250,310 L 252.5,316 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="0" y="63" width="95" height="108" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22.01220703125" y="159" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="33.2523193359375" y="145" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,290) scale(1,-1)">Lights</text>
+			<path d="M 0,138 L 95,138 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="6" y="124" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">- brightness: int</text>
+			<text x="6" y="112" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">+ setBrightness(int)</text>
+			<text x="6" y="100" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">+ getBrightness(): int</text>
+			<path d="M 144,199 L 47.5,171 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 47.5,171 L 52.56568,175.072946 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 47.5,171 L 53.958991,170.271 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="101" y="63" width="95" height="108" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="123.01220703125" y="159" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="132.6566162109375" y="145" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,290) scale(1,-1)">Screen</text>
+			<path d="M 101,138 L 196,138 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="107" y="124" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">- lowered: boolean</text>
+			<text x="107" y="112" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">+ lower(): void</text>
+			<text x="107" y="100" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">+ raise(): void</text>
+			<path d="M 195,199 L 148.5,171 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 148.5,171 L 152.35045,176.236796 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 148.5,171 L 154.929699,171.953401 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="202" y="63" width="95" height="108" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="224.01220703125" y="159" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="226.264892578125" y="145" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,290) scale(1,-1)">DvdPlayer</text>
+			<path d="M 202,138 L 297,138 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="208" y="124" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">- movie: String</text>
+			<text x="208" y="112" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">+ loadMovie(String)</text>
+			<text x="208" y="100" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">+ play() / stop()</text>
+			<text x="208" y="88" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,176) scale(1,-1)">+ eject(): void</text>
+			<path d="M 246,199 L 249.5,171 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 249.5,171 L 246.275097,176.64358 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 249.5,171 L 251.236486,177.263754 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="303" y="63" width="95" height="108" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="325.01220703125" y="159" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="329.91357421875" y="145" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,290) scale(1,-1)">Amplifier</text>
+			<path d="M 303,138 L 398,138 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="309" y="124" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">- source: DvdPlayer</text>
+			<text x="309" y="112" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">- volume: int</text>
+			<text x="309" y="100" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">+ start(player, volume)</text>
+			<text x="309" y="88" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,176) scale(1,-1)">+ stop(): void</text>
+			<path d="M 297,199 L 350.5,171 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 350.5,171 L 344.024795,171.567201 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 350.5,171 L 346.343283,175.997169 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<rect x="404" y="63" width="95" height="108" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="426.01220703125" y="159" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">&lt;&lt;Subsystem&gt;&gt;</text>
+			<text x="430.6468505859375" y="145" style="font-family: BodyBold; font-size: 9.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,290) scale(1,-1)">Projector</text>
+			<path d="M 404,138 L 499,138 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="410" y="124" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">- source: DvdPlayer</text>
+			<text x="410" y="112" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">- screen: Screen</text>
+			<text x="410" y="100" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,200) scale(1,-1)">+ start(player, screen)</text>
+			<text x="410" y="88" style="font-family: Body; font-size: 7.1px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,176) scale(1,-1)">+ stop(): void</text>
+			<path d="M 348,199 L 451.5,171 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 451.5,171 L 445.055341,170.153614 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 451.5,171 L 446.361061,174.980113 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 350,63 L 350,45 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 350,45 L 250,45 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 250,45 L 250,63 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 250,63 L 252.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 250,63 L 247.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="270" y="48" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,96) scale(1,-1)">audio source</text>
+			<path d="M 431,63 L 431,28 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 431,28 L 270,28 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 270,28 L 270,63 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 270,63 L 272.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 270,63 L 267.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="330" y="31" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">video source</text>
+			<path d="M 472,63 L 472,10 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 472,10 L 148,10 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 148,10 L 148,63 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 148,63 L 150.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<path d="M 148,63 L 145.5,57 Z" style="stroke: rgb(33%,33%,33%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="180" y="13" style="font-family: Body; font-size: 7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,26) scale(1,-1)">projection target</text>
+		</g>
+	</g>
+</svg>

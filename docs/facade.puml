@@ -1,0 +1,81 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide empty members
+title Home Theater Facade
+class Main <<Client>> {
+  {static} +main(args: String[]): void
+}
+class HomeTheaterFacade <<Facade>> {
+  -lights: Lights
+  -screen: Screen
+  -player: DvdPlayer
+  -amplifier: Amplifier
+  -projector: Projector
+  -state: State
+  +HomeTheaterFacade()
+  +watchMovie(title: String): void
+  +endMovie(): void
+  +status(): String
+  -restoreRoom(): void
+}
+package "theater.subsystem" {
+  class Lights <<Subsystem>> {
+    -brightness: int
+    +setBrightness(brightness: int): void
+    +getBrightness(): int
+  }
+  class Screen <<Subsystem>> {
+    -lowered: boolean
+    +lower(): void
+    +raise(): void
+    +isLowered(): boolean
+  }
+  class DvdPlayer <<Subsystem>> {
+    -movie: String
+    -playing: boolean
+    {static} +requireMovieTitle(title: String): String
+    +loadMovie(title: String): void
+    +play(): void
+    +stop(): void
+    +eject(): void
+    +isPlaying(): boolean
+    +getMovie(): String
+  }
+  class Amplifier <<Subsystem>> {
+    -source: DvdPlayer
+    -volume: int
+    +start(source: DvdPlayer, volume: int): void
+    +stop(): void
+    +isOn(): boolean
+    +isPlayingAudio(): boolean
+    +getVolume(): int
+  }
+  class Projector <<Subsystem>> {
+    -source: DvdPlayer
+    -screen: Screen
+    +start(source: DvdPlayer, screen: Screen): void
+    +stop(): void
+    +isOn(): boolean
+    +isProjecting(): boolean
+  }
+}
+Main ..> HomeTheaterFacade : uses only
+HomeTheaterFacade --> Lights : holds
+HomeTheaterFacade --> Screen : holds
+HomeTheaterFacade --> DvdPlayer : holds
+HomeTheaterFacade --> Amplifier : holds
+HomeTheaterFacade --> Projector : holds
+Amplifier --> DvdPlayer : audio source
+Projector --> DvdPlayer : video source
+Projector --> Screen : projection target
+note bottom of HomeTheaterFacade
+  State is READY, WATCHING or CLEANUP_REQUIRED.
+  Package-private dependency injection and exception
+  details are omitted from this overview.
+end note
+note bottom of DvdPlayer
+  Subsystems do not depend on HomeTheaterFacade.
+  Public subsystem APIs remain directly usable.
+end note
+@enduml
